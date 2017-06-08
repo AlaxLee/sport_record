@@ -1,0 +1,13 @@
+/* scoreboard.wxss */
+.scores-title {
+  margin: 20rpx;
+}
+
+.scores-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.scores-item {
+  margin: 10rpx;
+}

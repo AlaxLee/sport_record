@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/scoreboard/scoreboard",
+    "pages/record/record",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "步行锻炼记录器",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position" : "bottom",
+    "list": [{
+      "pagePath": "pages/scoreboard/scoreboard",
+      "text": "排行榜",
+      "iconPath": "images/list.png",
+      "selectedIconPath": "images/list_selected.png"
+    }, {
+      "pagePath": "pages/record/record",
+      "text": "录入",
+      "iconPath": "images/plus.png",
+      "selectedIconPath": "images/plus_selected.png"
+    }]
+  }
+}

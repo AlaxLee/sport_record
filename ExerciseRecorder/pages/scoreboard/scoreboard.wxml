@@ -1,0 +1,8 @@
+<!--scoreboard.wxml-->
+<view class="container scores-list">
+<text>!{{userInfo.nickName}}!</text>
+<text class="scores-title"> {{date}} 锻炼打卡</text>
+  <block wx:for="{{scores}}" wx:for-item="score">
+    <text class="scores-item">{{score.seq}}. {{score.name}} {{score.step_number}}</text>
+  </block>
+</view>
